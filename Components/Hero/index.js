@@ -1,7 +1,10 @@
+"use client";
 import * as React from "react";
+import dynamic from "next/dynamic";
 import { Grid, Typography } from "@mui/material";
 import Image from "next/image";
-import CustomButton from "../CommonButton";
+const CustomButton = dynamic(() => import("../CommonButton"));
+import styles from "./hero.module.css";
 
 export default function Hero() {
   const btnStyle = {
@@ -22,14 +25,19 @@ export default function Hero() {
   };
   return (
     <>
-      <div className="hero-section">
+      <div className={`${styles["hero-section"]}`}>
         <Typography variant="h1" className="hero-text">
           Madness In Doing Goodness
         </Typography>
       </div>
-      <Grid container maxWidth={2700} className="hero-bg" spacing={4}>
+      <Grid
+        container
+        maxWidth={2700}
+        className={`${styles["hero-bg"]}`}
+        spacing={4}
+      >
         <Grid item lg={6}>
-          <div className="hero-grid">
+          <div>
             <Image
               width={560}
               height={350}
@@ -40,17 +48,17 @@ export default function Hero() {
           </div>
         </Grid>
         <Grid item lg={6}>
-          <div className="hero-grid hero-desc">
+          <div className={`${styles["hero-desc"]}`}>
             <Typography>Up coming event</Typography>
             <Typography variant="h3">
               Kirukans Mural Painting <br />
               <span>22 Oct 2023 | Trichy</span>
             </Typography>
-            <Typography className="desc-para">
+            <Typography className={`${styles["desc-para"]}`}>
               At Raja government school, we believe in the power of creativity
-              and education. We're thrilled to announce our latest project - a
-              stunning mural that will inspire and uplift our students for years
-              to come.
+              and education. We&apos;re thrilled to announce our latest project
+              - a stunning mural that will inspire and uplift our students for
+              years to come.
             </Typography>
             <Grid
               container

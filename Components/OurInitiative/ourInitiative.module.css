@@ -1,0 +1,22 @@
+.our-section {
+  height: 90px;
+  margin: 85px 80px;
+  border-left: 6px solid #ffbf17;
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.our-section h1 {
+  color: #050505;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.our-text {
+  color: #050505;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 110%;
+}
