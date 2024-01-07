@@ -1,51 +1,60 @@
 .hero-section {
   text-align: left;
-  width: 50%;
-  height: 250px;
-  margin: 50px 80px;
+  margin: 60px 138px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
 .hero-text {
   color: #050505;
+  font-family: "Montserrat", sans-serif;
   font-size: 72px;
   font-style: normal;
-  font-weight: 800;
+  width: 60%;
+  font-weight: 700;
   line-height: 110%;
 }
 
 .hero-bg {
   background: #1a1547;
-  padding: 30px 85px 30px 85px;
+  margin: 50px 0;
+  padding: 80px 138px;
 }
 
 .hero-desc {
   color: #fff;
   display: flex;
-  height: 90%;
-  width: 87%;
+  width: 92%;
+  /* height: 80%; */
   flex-direction: column;
   justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero-desc h3 {
   font-size: 40px;
   font-weight: 600;
   text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
 }
-.hero-desc:nth-child(1) {
+.hero-desc p {
   font-size: 18px;
+  margin-bottom: 20px;
   font-weight: 400;
   line-height: 140%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero-desc h3 span {
   font-size: 22px;
   font-weight: 500;
   text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
 }
 .desc-para {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
+  font-family: "Montserrat", sans-serif;
 }

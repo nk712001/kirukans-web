@@ -1,22 +1,28 @@
-.our-section {
-  height: 90px;
-  margin: 85px 80px;
-  border-left: 6px solid #ffbf17;
-  width: 20%;
-  display: flex;
-  justify-content: end;
-  align-items: center;
+.our-container {
+  margin: 60px 0;
 }
-.our-section h1 {
-  color: #050505;
-  font-size: 42px;
-  font-weight: 700;
-  text-transform: lowercase;
+.our-cards:after {
+  content: "";
+  clear: both;
 }
-.our-text {
+.our-cards-desc {
+  margin-top: -13px;
+}
+.our-cards-desc a {
+  text-decoration: none;
+}
+.our-cards-desc p {
+  border-bottom: 3.5px solid #ffbf17;
+  width: fit-content;
   color: #050505;
-  font-size: 72px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  padding-top: 42px;
   font-style: normal;
-  font-weight: 900;
-  line-height: 110%;
+  font-weight: 700;
+  line-height: 140%;
+}
+.our-cards-desc:hover {
+  background-color: #ffbf17;
+  transition: 0.5s;
 }
