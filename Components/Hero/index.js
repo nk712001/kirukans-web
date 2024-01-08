@@ -27,7 +27,7 @@ export default function Hero() {
     <>
       <Container>
         <div className={`${styles["hero-section"]}`}>
-          <Typography variant="h1" className={`${styles["hero-text"]}`}>
+          <Typography variant="h1" >
             Madness In Doing Goodness
           </Typography>
         </div>
