@@ -1,12 +1,13 @@
 .our-container {
-  margin: 60px 0;
+  margin: 20px 0;
 }
-.our-cards:after {
-  content: "";
-  clear: both;
+.our-container > div {
+  padding-right: 30px;
 }
-.our-cards-desc {
-  margin-top: -13px;
+.our-cards {
+  position: relative;
+  height: 210px;
+  width: 100%;
 }
 .our-cards-desc a {
   text-decoration: none;
@@ -24,5 +25,6 @@
 }
 .our-cards-desc:hover {
   background-color: #ffbf17;
+  width: 100%;
   transition: 0.5s;
 }
