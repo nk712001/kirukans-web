@@ -25,59 +25,55 @@ export default function Hero() {
   };
   return (
     <>
-      <Container disableGutters maxWidth={false}>
+      <Container>
         <div className={`${styles["hero-section"]}`}>
           <Typography variant="h1" className={`${styles["hero-text"]}`}>
             Madness In Doing Goodness
           </Typography>
         </div>
-        <Grid
-          container
-          maxWidth={2700}
-          className={`${styles["hero-bg"]}`}
-          // columnGap={1}
-        >
-          <Grid item lg={6}>
-            <div>
-              <Image
-                width={560}
-                height={350}
-                alt=""
-                style={{ objectFit: "contain" }}
-                src={"/heroImg.png"}
-              />
-            </div>
-          </Grid>
-          <Grid item lg={6}>
-            <div className={`${styles["hero-desc"]}`}>
-              <Typography>Up coming event</Typography>
-              <Typography variant="h3">
-                Kirukans Mural Painting <br />
-                <span>22 Oct 2023 | Trichy</span>
-              </Typography>
-              <Typography variant="span" className={`${styles["desc-para"]}`}>
-                At Raja government school, we believe in the power of creativity
-                and education. We&apos;re thrilled to announce our latest
-                project - a stunning mural that will inspire and uplift our
-                students for years to come.
-              </Typography>
-              <Grid
-                container
-                justifyContent="flex-start"
-                alignItems="center"
-                columnSpacing={2}
-              >
-                <Grid item>
-                  <CustomButton sxProp={btnStyle} label={"Donate Us"} />
-                </Grid>
-                <Grid item>
-                  <CustomButton sxProp={btnStyle} label={"Join Us"} />
-                </Grid>
-              </Grid>
-            </div>
-          </Grid>
-        </Grid>
       </Container>
+      <div className={`${styles["hero-bg"]}`}>
+        <Container>
+          <Grid container spacing={6}>
+            <Grid item lg={6}>
+              <div
+                className={`${styles["hero-tab-1"]}`}
+              >
+                <Image layout="fill" alt="" src={"/heroImg.png"} />
+              </div>
+            </Grid>
+            <Grid item lg={6}>
+              <div className={`${styles["hero-desc"]}`}>
+                <Typography>Up coming event</Typography>
+                <Typography variant="h3">Kirukans Mural Painting</Typography>
+                <span className={`${styles["hero-desc-span"]}`}>
+                  22 Oct 2023 | Trichy
+                </span>
+                <Typography variant="span" className={`${styles["desc-para"]}`}>
+                  At Raja government school, we believe in the power of
+                  creativity and education. We&apos;re thrilled to announce our
+                  latest project - a stunning mural that will inspire and uplift
+                  our students for years to come.
+                </Typography>
+                <Grid
+                  container
+                  justifyContent="flex-start"
+                  alignItems="center"
+                  columnSpacing={2}
+                  className={`${styles["btn-grp"]}`}
+                >
+                  <Grid item>
+                    <CustomButton sxProp={btnStyle} label={"Donate Us"} />
+                  </Grid>
+                  <Grid item>
+                    <CustomButton sxProp={btnStyle} label={"Join Us"} />
+                  </Grid>
+                </Grid>
+              </div>
+            </Grid>
+          </Grid>
+        </Container>
+      </div>
     </>
   );
 }
