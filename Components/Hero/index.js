@@ -9,7 +9,7 @@ import styles from "./hero.module.css";
 export default function Hero() {
   const btnStyle = {
     borderRadius: 0,
-    fontFamily: "Montserrat",
+    fontFamily: "Montserrat, san-serif",
     fontSize: "20px",
     color: "#FFBF17",
     fontWeight: "700",
@@ -27,23 +27,19 @@ export default function Hero() {
     <>
       <Container>
         <div className={`${styles["hero-section"]}`}>
-          <Typography variant="h1" >
-            Madness In Doing Goodness
-          </Typography>
+          <Typography variant="h1">Madness In Doing Goodness</Typography>
         </div>
       </Container>
       <div className={`${styles["hero-bg"]}`}>
         <Container>
           <Grid container spacing={6}>
             <Grid item lg={6}>
-              <div
-                className={`${styles["hero-tab-1"]}`}
-              >
+              <div className={`${styles["hero-tab-1"]}`}>
                 <Image layout="fill" alt="" src={"/heroImg.png"} />
               </div>
             </Grid>
             <Grid item lg={6}>
-              <div className={`${styles["hero-desc"]}`}>
+              <div className={`${styles["hero-desc"]} montserrat`}>
                 <Typography>Up coming event</Typography>
                 <Typography variant="h3">Kirukans Mural Painting</Typography>
                 <span className={`${styles["hero-desc-span"]}`}>
