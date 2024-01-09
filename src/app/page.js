@@ -1,3 +1,4 @@
+import Events from "../../Components/Events";
 import Hero from "../../Components/Hero";
 import JoinUs from "../../Components/JoinUs";
 import OurInitiative from "../../Components/OurInitiative";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <OurInitiative />
       <JoinUs />
+      <Events />
     </>
   );
 }
