@@ -5,7 +5,9 @@ export default function CustomButton(props) {
   return (
     <Button
       variant="outlined"
+      type={props.btnType}
       sx={props.sxProp}
+      onClick={props.click}
       endIcon={<FavoriteBorderSharpIcon />}
     >
       {props.label}

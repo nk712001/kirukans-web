@@ -1,0 +1,10 @@
+.join-banner {
+  width: 100%;
+  height: 346px;
+  position: relative;
+}
+
+.join-container {
+  background: #fff;
+  padding: 50px 60px;
+}

@@ -35,7 +35,7 @@ export default function Hero() {
           <Grid container spacing={6}>
             <Grid item lg={6}>
               <div className={`${styles["hero-tab-1"]}`}>
-                <Image layout="fill" alt="" src={"/heroImg.png"} />
+                <Image fill alt="" src={"/heroImg.png"} />
               </div>
             </Grid>
             <Grid item lg={6}>

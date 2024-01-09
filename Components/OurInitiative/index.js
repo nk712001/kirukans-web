@@ -17,7 +17,7 @@ export default function OurInitiative() {
         >
           <Grid item lg={3}>
             <div className={`${styles["our-cards"]}`}>
-              <Image src={"./ourIns-1.svg"} layout="fill" alt="" />
+              <Image src={"./ourIns-1.svg"} fill alt="" />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
               <Link href="/">
@@ -27,7 +27,7 @@ export default function OurInitiative() {
           </Grid>
           <Grid item lg={3}>
             <div className={`${styles["our-cards"]}`}>
-              <Image src={"./ourIns-2.svg"} layout="fill" alt="" />
+              <Image src={"./ourIns-2.svg"} fill alt="" />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
               <Link href="/">
@@ -37,7 +37,7 @@ export default function OurInitiative() {
           </Grid>
           <Grid item lg={3}>
             <div className={`${styles["our-cards"]}`}>
-              <Image src={"./ourIns-3.svg"} layout="fill" alt="" />
+              <Image src={"./ourIns-3.svg"} fill alt="" />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
               <Link href="/">
@@ -47,7 +47,7 @@ export default function OurInitiative() {
           </Grid>
           <Grid item lg={3}>
             <div className={`${styles["our-cards"]}`}>
-              <Image src={"./ourIns-4.svg"} layout="fill" alt="" />
+              <Image src={"./ourIns-4.svg"} fill alt="" />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
               <Link href="/">
