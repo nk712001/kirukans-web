@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
 import styles from "./event.module.css";
-import { Button, Container, Grid, Typography } from "@mui/material";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Container, Grid, Typography } from "@mui/material";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -18,20 +17,24 @@ export default function Events() {
           <Grid container>
             <Grid item lg={8}>
               <iframe
-                width="914"
-                height="514"
+                width="1001"
+                height="563"
                 src="https://www.youtube.com/embed/ahAYApT2b4U"
                 title="Love of THAIYAMA  || Feed The Homeless || Kirukans"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               ></iframe>
             </Grid>
-            <Grid item lg={6}>
+            <Grid item lg={2}>
               <div className={`${styles["events-above"]}`}>
-                <Typography variant="h3">Kirukans creative workshop</Typography>
-                <Typography>
-                  feed the home less Freezing temperatures threaten refugee
-                  families feed the
-                </Typography>
+                <div>
+                  <Typography variant="h3">
+                    Kirukans creative workshop
+                  </Typography>
+                  <Typography>
+                    Feed the home less Freezing temperatures threaten refugee
+                    families feed the
+                  </Typography>
+                </div>
                 <Typography className={`${styles["events-above-link"]}`}>
                   <Link href="/" className="btn btn-primary">
                     <Image
