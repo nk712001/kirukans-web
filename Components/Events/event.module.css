@@ -1,5 +1,6 @@
 .events-below {
   position: relative;
+  margin: 100px auto;
 }
 
 .events-above {
@@ -48,4 +49,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 20.5px; /* 102.5% */
+}
+
+.our-cards {
+  width: 100%;
+  height: 325px;
+  position: relative;
 }

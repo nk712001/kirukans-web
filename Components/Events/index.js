@@ -50,6 +50,114 @@ export default function Events() {
             </Grid>
           </Grid>
         </div>
+
+        <Grid
+          container
+          className={`${styles["our-container"]}`}
+          justifyContent={"flex-start"}
+          spacing={6}
+        >
+          <Grid item lg={6}>
+            <div className={`${styles["our-cards"]}`}>
+              <Image
+                src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                fill
+                alt=""
+              />
+            </div>
+            <div className={`${styles["our-cards-desc"]}`}>
+              <Typography>
+                Love of Thaiyama , a untold story feed the homeless
+              </Typography>
+              <Typography className={`${styles["events-above-link"]}`}>
+                <Link href="/" className="btn btn-primary">
+                  <Image
+                    src={"./youtube-yellow.svg"}
+                    alt=""
+                    width={20}
+                    height={20}
+                  />
+                  Watch this fully
+                </Link>
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item lg={6}>
+            <div className={`${styles["our-cards"]}`}>
+              <Image
+                src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                fill
+                alt=""
+              />
+            </div>
+            <div className={`${styles["our-cards-desc"]}`}>
+              <Typography>
+                Love of Thaiyama , a untold story feed the homeless
+              </Typography>
+              <Typography className={`${styles["events-above-link"]}`}>
+                <Link href="/" className="btn btn-primary">
+                  <Image
+                    src={"./youtube-yellow.svg"}
+                    alt=""
+                    width={20}
+                    height={20}
+                  />
+                  Watch this fully
+                </Link>
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item lg={6}>
+            <div className={`${styles["our-cards"]}`}>
+              <Image
+                src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                fill
+                alt=""
+              />
+            </div>
+            <div className={`${styles["our-cards-desc"]}`}>
+              <Typography>
+                Love of Thaiyama , a untold story feed the homeless
+              </Typography>
+              <Typography className={`${styles["events-above-link"]}`}>
+                <Link href="/" className="btn btn-primary">
+                  <Image
+                    src={"./youtube-yellow.svg"}
+                    alt=""
+                    width={20}
+                    height={20}
+                  />
+                  Watch this fully
+                </Link>
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item lg={6}>
+            <div className={`${styles["our-cards"]}`}>
+              <Image
+                src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                fill
+                alt=""
+              />
+            </div>
+            <div className={`${styles["our-cards-desc"]}`}>
+              <Typography>
+                Love of Thaiyama , a untold story feed the homeless
+              </Typography>
+              <Typography className={`${styles["events-above-link"]}`}>
+                <Link href="/" className="btn btn-primary">
+                  <Image
+                    src={"./youtube-yellow.svg"}
+                    alt=""
+                    width={20}
+                    height={20}
+                  />
+                  Watch this fully
+                </Link>
+              </Typography>
+            </div>
+          </Grid>
+        </Grid>
       </Container>
     </>
   );
