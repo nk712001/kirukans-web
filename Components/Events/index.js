@@ -66,10 +66,10 @@ export default function Events() {
               />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
-              <Typography>
+              <Typography variant="h5">
                 Love of Thaiyama , a untold story feed the homeless
               </Typography>
-              <Typography className={`${styles["events-above-link"]}`}>
+              <Typography className={`${styles["events-above-link-n"]}`}>
                 <Link href="/" className="btn btn-primary">
                   <Image
                     src={"./youtube-yellow.svg"}
@@ -91,10 +91,10 @@ export default function Events() {
               />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
-              <Typography>
+              <Typography variant="h5">
                 Love of Thaiyama , a untold story feed the homeless
               </Typography>
-              <Typography className={`${styles["events-above-link"]}`}>
+              <Typography className={`${styles["events-above-link-n"]}`}>
                 <Link href="/" className="btn btn-primary">
                   <Image
                     src={"./youtube-yellow.svg"}
@@ -116,10 +116,10 @@ export default function Events() {
               />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
-              <Typography>
+              <Typography variant="h5">
                 Love of Thaiyama , a untold story feed the homeless
               </Typography>
-              <Typography className={`${styles["events-above-link"]}`}>
+              <Typography className={`${styles["events-above-link-n"]}`}>
                 <Link href="/" className="btn btn-primary">
                   <Image
                     src={"./youtube-yellow.svg"}
@@ -141,10 +141,10 @@ export default function Events() {
               />
             </div>
             <div className={`${styles["our-cards-desc"]}`}>
-              <Typography>
+              <Typography variant="h5">
                 Love of Thaiyama , a untold story feed the homeless
               </Typography>
-              <Typography className={`${styles["events-above-link"]}`}>
+              <Typography className={`${styles["events-above-link-n"]}`}>
                 <Link href="/" className="btn btn-primary">
                   <Image
                     src={"./youtube-yellow.svg"}
