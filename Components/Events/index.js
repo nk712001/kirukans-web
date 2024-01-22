@@ -61,6 +61,7 @@ export default function Events() {
             <div className={`${styles["our-cards"]}`}>
               <Image
                 src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                style={{ objectFit: "cover" }}
                 fill
                 alt=""
               />
@@ -86,6 +87,7 @@ export default function Events() {
             <div className={`${styles["our-cards"]}`}>
               <Image
                 src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                style={{ objectFit: "cover" }}
                 fill
                 alt=""
               />
@@ -111,6 +113,7 @@ export default function Events() {
             <div className={`${styles["our-cards"]}`}>
               <Image
                 src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                style={{ objectFit: "cover" }}
                 fill
                 alt=""
               />
@@ -136,6 +139,7 @@ export default function Events() {
             <div className={`${styles["our-cards"]}`}>
               <Image
                 src={"https://img.youtube.com/vi/ahAYApT2b4U/0.jpg"}
+                style={{ objectFit: "cover" }}
                 fill
                 alt=""
               />
